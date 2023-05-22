@@ -243,9 +243,55 @@
             </tr>
         </table>
 
+        <br><br>
         <!--  Html Forms -->
 
-        
+        <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+           <fieldset>
+            <legend>Candidate Personal info:</legend>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" placeholder="enter your name" autofocus required> </br><br>
+               
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" placeholder="enter your last name" required> <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com" autofocus required> <br><br>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" autofocus required> <br><br>
+
+                <label for="attempt">No. of attempts</label>
+                <input type="number" name="attempt" id="attempt" placeholder="enter digits" required> <br><br>
+                
+                <label for="feedback">Feed-back</label> <br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="enter your suggestions here..."></textarea> <br><br>
+
+                <label for="dishes">Select you dishes</label> <br>
+                <select name="dishes" id="dishes" multiple>
+                    <option value="paneer">paneer</option>
+                    <option value="gobi">gobi</option>
+                    <option value="pasta">pasta</option>
+                    <option value="daal">daal</option>
+
+                </select>
+                <br><br>
+                <label for="branch">Select you branch</label> <br>
+                <select name="Branch" id="branch" multiple>
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="ME">ME</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="ECE">ECE</option>
+                </select>
+
+
+
+                <br><br>
+                <input type="button" value="Submit">
+
+           </fieldset>
+        </form>
       
 
     
