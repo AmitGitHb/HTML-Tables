@@ -12,13 +12,16 @@
                 <legend><h2>Event Registration</h2></legend>
     
                  <label for="name">Name</label><br>
-                <input type="text" name="name" id="name" autofocus required> <br><br>
+                <input type="text" name="name" id="name" required> <br><br>
+
+                <!-- <label for="lastName">lastName</label>
+                <input type="text" name="lastName" id="lastName" minlength="10" maxlength="20" autofocus required><br><br> -->
 
                 <label for="email">Email:</label><br>
-                <input type="email" name="email" id="email" autofocus required> <br><br>
+                <input type="email" name="email" id="email" required> <br><br>
 
                 <label for="tel">Phone</label><br>
-                <input type="tel" name="tel" id="tel" autofocus required> <br><br>
+                <input type="tel" name="tel" id="tel" required> <br><br>
 
                 <label for="occupation">Occupation</label>
                 <select name="occupation" id="occupation">
@@ -27,7 +30,8 @@
                     <option value="back-end">back-end</option>
                 </select> <br><br>
 
-                Type of interest <br><br>
+               <fieldset>
+                <legend>Type of interest</legend>
                 <label for="interest">HTML</label>
                 <input type="checkbox" name="interest" id="interest" multiple> <br>
 
@@ -36,17 +40,68 @@
 
                 <label for="interest">JS</label>
                 <input type="checkbox" name="interest" id="interest"> <br>
+               </fieldset>
                 
                 <br>
                 <label for="text-area">Comments</label><br>
                 <textarea name="text-area" id="text-area" cols="30" rows="5"></textarea> <br>
                 <input type="button" value="Register">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+        <br>
+        <hr color="red">
 
+        <!-- job application form  -->
+        <form>
+            <fieldset>
+                <legend><h2>Job Application form:</h2></legend>
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name"  required><br>
 
-                
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email" required><br>
 
+                <label for="phone">Phone:</label><br>
+                <input type="tel" name="phone" id="phone" required><br>
 
-                
+                <label for="resume">Resume</label><br>
+                <input type="file" name="resume" id="resume" required><br>
+
+                <label for="exp">Experience(in years)</label>
+                <input type="number" name="exp" id="exp" min="0" max="10" required>
+
+                <fieldset>
+                    <legend>Skills</legend>
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="html" id="html"><br><br>
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="css" id="css"><br><br>
+                    <label for="javaScript">JavaScript</label>
+                    <input type="checkbox" name="javaScript" id="javaScript">
+                </fieldset>
+                <br>
+
+               <label for="edu">Highest Qualification</label>
+               <select id="edu">
+                <option value="SeniorSecondary" id="edu">Senior Secondary</option>
+                <option value="highSecondary" id="edu">HighSecondary</option>
+                <option value="bachelor" id="edu">Bachelor of Engineering</option>
+               </select>
+               <br><br>
+
+               <label for="job-type">Availablity:</label>
+               <label for="full-time">full-time</label>
+               <input type="radio" name="job-type" id="full-time">
+               <label for="part-time">part-time</label>
+               <input type="radio" name="job-type" id="part-time">
+               <br><br>
+
+               <label for="text-area"></label>
+               <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea><br>
+               <button type="submit">Submit Application</button>
+               <button type="reset">reset</button>
+
             </fieldset>
         </form>
     
