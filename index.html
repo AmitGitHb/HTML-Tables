@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sankhla enterprises, we are here protect and preserve your grain.">
+    <meta name="keywords" content="sankhla, enterprises, fci, grain, wheat, storage, warehouse">
+    <link rel="stylesheet" href="./style/css.css">
+    <title>Sankhla Enterprises</title>
+
+</head>
+<body class="body">
+
+    <header>
+        <h1><strong><u>SANKHLA ENTERPRISES</u></strong></h1>
+    </header>
+    <br>
+    <main>
+        <nav>
+            <a href="#Home">Home</a> | 
+            <a href="./html/about.html" target="_blank">About</a> | 
+            <a href="./html/service.html" target="_blank">Services</a> | 
+            <a href="./html/contact.html" target="_blank">Contact</a>
+        </nav>
+    
+        <br>
+        <!-- table>(tr>td*3)*3 -->
+        <table border="1">
+            <thead>
+                <th>Student Id</th>
+                <th>Student Name</th>
+                <th>Gender</th>
+                <th>Sudent Age</th>
+                <th>Student Marks</th>
+            </thead>
+            <tbody>
+               <tr>
+                <td>00456</td>
+                <td>Amit</td>
+                <td rowspan="3">Male</td>
+                <td>35</td>
+                <td>84.6</td>
+               </tr>
+               <tr>
+                  <td>00976</td>
+                  <td>Kapil</td>
+                  <!-- <td>Male</td> -->
+                  <td>34</td>
+                  <td rowspan="2">76.5</td>
+               </tr>
+
+               <tr>
+                <td>00987</td>
+                <td>Rishi</td>
+                <!-- <td>Male</td> -->
+                <td>8</td>
+                <!-- <td>78.6</td> -->
+               </tr>
+               <tr>
+                <td>00564</td>
+                <td>suman</td>
+                <td>Female</td>
+                <td>36</td>
+                <td rowspan="2">88.8</td>
+               </tr>
+
+            </tbody>
+        </table>
+        <hr>
+
+        <table border="1">
+            <thead>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Type</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Founder Microsoft</td>
+                    <td>$1000</td>
+                    <td rowspan="4">Company Founder</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Founder Apple</td>
+                    <td>$2100</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Founder Google</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark Zuckerberg</td>
+                    <td>Founder Facebook</td>
+                    <td>$1300</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="total">Total Expense </td>
+                    <td>$4600</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <hr>
+
+        <table border="1">
+            <thead>
+                <th>Country</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Street</th>
+                <th>Male</th>
+                <th>Female</th>
+                <th>Others</th>
+            </thead>
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">Kerela</td>
+                <td rowspan="2">Cochin</td>
+                <td>New Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Main Street</td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Trivandrum</td>
+                <td>Guru Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>TVK Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Maharastra</td>
+                <td rowspan="2">Mumbai</td>
+                <td>Krishna Street</td>
+                <td>700</td>
+                <td>850</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Main Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Surath</td>
+                <td>New Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Billa Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Alaska</td>
+                <td rowspan="2">AKA Central</td>
+                <td>New Street</td>
+                <td>200</td>
+                <td>210</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Cross Street</td>
+                <td>1000</td>
+                <td>1050</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <hr>
+        <br>
+
+        <table border="1">
+            <tr>
+                <td rowspan="3" id="day">Day</td>
+                <td colspan="3" id="seminar">Seminar</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="Schedule">Schedule</td>
+                <td rowspan="2" id="Topic">Topic</td>
+            </tr>
+            <tr>
+                <td>Begin</td>
+                <td>End</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m</td>
+                <td rowspan="2">5:00 p.m</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 a.m</td>
+                <td>11:00 p.m</td>
+                <td rowspan="2" id="XPath">XPath</td>
+            </tr>
+            <tr>
+                <td>11:00 a.m</td>
+                <td>2:00 p.m</td>
+            </tr>
+            <tr>
+                <td>2:00 p.m</td>
+                <td>5:00 p.m</td>
+                <td rowspan="1">XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m</td>
+                <td>12:00 p.m</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+        </table>
+      
+
+    
+
+    </main>
+    <hr>
+    <footer>
+        Copyright &#169 All Rights &#174 Reserved.
+    </footer>
+    
+</body>
+</html>

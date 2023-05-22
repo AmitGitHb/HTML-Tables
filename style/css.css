@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+.body {
+    background-color: bisque;
+}
+
+.row{
+    background-color: red;
+}
+
+.total {
+    text-align: center;
+}
+
+#day {
+    text-align: center;
+}
+
+#seminar {
+    text-align: center;
+}
+
+#Schedule{
+    text-align: center;
+}
+
+#Topic{
+    text-align: center;
+}
+
+#XPath{
+    text-align: center;
+}
